@@ -7,13 +7,13 @@ cd src/design/icons
 yarn; yarn build; yarn link
 
 cd src/design/ui
-yarn; yarn build; yarn link ui-preset; yarn link icons
+yarn; yarn build; yarn link ui-preset icons
 
 
 in project root directory:
 
 yarn
-yarn link ui
+yarn link ui ui-preset
 
 start the server:
 
